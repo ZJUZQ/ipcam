@@ -6,7 +6,7 @@ if [ ! -d ~/3rdparty/lib ]; then mkdir -p ~/3rdparty/lib; fi
 
 if [ ! -d ~/ipc_driver ]
 then
-	git clone --recursive http://gitlab.alibaba-inc.com/ShopAI/ipc_driver.git
+	git clone https://github.com/ZJUZQ/ipcam.git
 fi
 
 cd ~/ipc_driver
